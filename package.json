@@ -1,6 +1,6 @@
 {
     "name": "hexo-renderer-markojs",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Use marko v4 template in Hexo.",
     "main": "index.js",
     "dependencies": {

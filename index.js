@@ -1,2 +1,5 @@
+/* globals hexo */
+'use strict'
+const renderer = require('./lib/renderer');
 
-module.exports = require('./lib/index');
+hexo.extend.renderer.register('marko', 'html', renderer);
