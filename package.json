@@ -1,0 +1,33 @@
+{
+    "name": "hexo-renderer-markojs",
+    "version": "1.0.0",
+    "description": "Use marko v4 template in Hexo.",
+    "main": "index.js",
+    "dependencies": {
+        "marko": "^4.13.7"
+    },
+    "author": "lizhooh",
+    "license": "MIT",
+    "keywords": [
+        "hexo-renderer-markojs",
+        "hexo",
+        "hexo-renderer",
+        "markojs",
+        "hexo-renderer-marko",
+        "renderer-markojs",
+        "renderer-markojs"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Lizhooh/hexo-renderer-markojs"
+    },
+    "scripts": {
+        "test": "jest"
+    },
+    "jest": {
+        "testEnvironment": "node"
+    },
+    "devDependencies": {
+        "jest": "^23.6.0"
+    }
+}
